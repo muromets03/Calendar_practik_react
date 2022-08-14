@@ -42,11 +42,18 @@
   cursor: pointer;
 }
 
-.calendar .day.today,
+
 .calendar .day.selected {
   width: 15px;
   height: 25px;
   border-width: 3px;
+  color: blue;
+  background-color: white;
+  border-color: blue;
+  border-radius: 50%;
+}
+
+.calendar .day.today{
   color: red;
   background-color: white;
   border-color: red;
